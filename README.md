@@ -8,14 +8,14 @@ The following starts the whole flex thingy
 
     display: flex; /* makes everything flexible */
 
-Now flex-direction controls the axes:
+### flex-direction controls the axes:
 
-- main axis (horizontal by default)
-- cross-axis (vertical by default)
+    flex-direction: column: /* by default its value is `row` */
 
-  flex-direction: column; /_ by default it is row _/
+- **main axis** (horizontal by default)
+- **cross-axis** (vertical by default).
 
-other values for flex-directions are:
+Other values for flex-directions are:
 
 - **row** (`main axis` will be `horizontal`)
 - **row-reverse** (`main axis` will also be `horizontal` but element arranged right to left)

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 80vw;
+    margin: 10px auto;
+    height: 400px;
+    background-color: pink;
+    border: 3px solid red;
+
+    /* flexbox comes in */
+    display: flex; /* makes everything flexible */
+
+    flex-direction: column; /* by default it is row */
+
+}
+
+.container > * {
+    text-align: center;
+    padding-top: 15px;
+    width: 70px;
+    height: 70px;
+    background-color: lightblue;
+    border: 3px solid blue;
+}

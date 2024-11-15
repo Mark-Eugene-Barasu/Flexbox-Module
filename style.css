@@ -4,6 +4,29 @@
     margin: 0px;
 }
 
+/* ~~~~~~~~~~~~ Pseudo Class ~~~~~~~~~~~~~~ */
+a,
+a:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    color: yellow;
+    background-color: black;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 .container {
     width: 80vw;
     margin: 10px auto;

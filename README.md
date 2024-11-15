@@ -17,7 +17,7 @@ Now flex-direction controls the axes:
 
 other values for flex-directions are:
 
-- row (main axis will be horizontal)
-- row-reverse (main axis will also be horizontal but element arranged right to left)
-- column (main axis will become vertical)
-- column reverse (main axis will also be vertical but elements will be arranged from bottom to top)
+- **row** (`main axis` will be `horizontal`)
+- **row-reverse** (`main axis` will also be `horizontal` but element arranged right to left)
+- **column** (`main axis` will become `vertical`)
+- **column-reverse** (`main axis` will also be `vertical` but elements will be arranged from bottom to top)
